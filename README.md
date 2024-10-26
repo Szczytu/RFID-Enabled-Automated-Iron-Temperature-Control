@@ -3,9 +3,10 @@ The project presents the construction of a fully functional iron that automatica
 <p align="center">
   <img src="https://github.com/user-attachments/assets/712b645b-cbd5-4ec3-9b31-5b824226d2d2">
 </p>
-
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93701c34-502d-44d3-bba1-15cb6f467dd8">
+  <img src="https://github.com/user-attachments/assets/17843e11-59bb-4a46-8aa5-05c075944ced">
+</p>
 
 
 # Power and PID control
