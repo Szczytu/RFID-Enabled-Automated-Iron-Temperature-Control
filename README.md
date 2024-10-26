@@ -66,7 +66,7 @@ The design is based on the use of phase-delay control, which allows precise adju
 </p>
 
 # Library guide
-
+Go to the main.py file and find such items in the program as PID configuration, maximum_faring_delay, and uid_to_setpoint
 - The display was realized on the TFT LCD ST7735S using the user library “boochow” https://github.com/boochow/MicroPython-ST7735/blob/master/ST7735.py.
 - Temperature reading was realized with the RC522 RFID module based on the user library “kevinmcaleer” https://github.com/kevinmcaleer/pico-rfid/blob/main/mfrc522.py.
 - The conversion of the thermoelectric signal from the thermocouple to a digital temperature value was based on the
@@ -83,8 +83,8 @@ The design is based on the use of phase-delay control, which allows precise adju
 - Ki is for eliminating the long-term error
 
 > [!IMPORTANT]
-> Start with ki, if the system responds quickly enough, go to setting the kd coefficient and then ki
-> Find in the main.py file the dictionary uid_to_setpoint = {} and add the UID of your TAG and the temperature it should represent.
+> To adjust system start with Ki, if the system responds quickly enough, go to setting the Kd coefficient and then ki
+> The dictionary uid_to_setpoint = {} is for add the UID of your TAG and the temperature it should represent.
 
 > [!WARNING]
 > If you add operations to your code that require more processing time by the Raspberry Pi, pay attention to the Maximum Faring Delay. Exceeding this limit may cause desynchronization with the sinusoidal signal, which will affect the stability and accuracy of the system..
