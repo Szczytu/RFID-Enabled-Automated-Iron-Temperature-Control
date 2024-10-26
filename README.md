@@ -1,8 +1,9 @@
 # RFID-Enabled-Automated-Iron-Temperature-Control
 The project presents the construction of a fully functional iron that automatically sets the temperature by reading RFID identifiers placed in ironed clothes. The temperature control algorithm is based on PID control.
 <p align="center">
-  <img width="460" height="300" src="https://picsum.photos/460/300">
+  <img width="460" height="300" src="![iron1](https://github.com/user-attachments/assets/712b645b-cbd5-4ec3-9b31-5b824226d2d2)">
 </p>
+
 
 
 
