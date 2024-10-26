@@ -8,8 +8,9 @@ The project presents the construction of a fully functional iron that automatica
 </p>
 
 # Schematic and project heating power control module
-PCB Design Electronic Temperature Control System for Automated Iron
+The project schematic, sample 3D model and gerber file is in the folder "PCB Design Electronic Temperature Control System for Automated Iron"
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/1409585e-9fe1-43e5-a72e-cab69f359077">
   <img src="https://github.com/user-attachments/assets/95f2955d-9e39-4481-a62c-71d28189e56a">
 </p>
 
