@@ -18,12 +18,12 @@ The project schematic, sample 3D model and gerber file is in the folder "PCB Des
 Power control guide by “Electronoobs”, which accurately describes zero crossing detection, triac control, and PID https://www.youtube.com/watch?v=P6mbBJDIvxI&ab_channel=Electronoobs. 
 The design is based on the use of phase-delay control, which allows precise adjustment of the heating temperature. A key component of the system is the detection of the moment when the AC line voltage passes through zero, which is important for synchronizing the control with the voltage cycle.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6ababfed-aee1-4488-a546-1aaef164576b">
+  <img src="https://github.com/user-attachments/assets/d9746f44-6ded-443f-8944-6878a1418bd3">
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/850e76e5-5dcc-41f5-b324-bc423a77c18c">
-  <img src="https://github.com/user-attachments/assets/71757215-ee91-4b2d-baca-23cf9f552a21">
-  <img src="https://github.com/user-attachments/assets/597de46d-10db-4cc7-b8df-10e4c418f0da">
+  <img src="https://github.com/user-attachments/assets/f6fe8c1e-ad30-462f-878b-743e11e43f99">
+  <img src="https://github.com/user-attachments/assets/23aac976-357b-4ec9-88b5-69a84c59b32c">
+  <img src="https://github.com/user-attachments/assets/bf14816c-53ea-4296-b89a-5f5566fb2242">
 </p>
 
 The display was realized on the TFT LCD ST7735S using the user library “boochow” https://github.com/boochow/MicroPython-ST7735/blob/master/ST7735.py.  Temperature reading is realized with the RC522 RFID module based on the user library “kevinmcaleer” https://github.com/kevinmcaleer/pico-rfid/blob/main/mfrc522.py.
