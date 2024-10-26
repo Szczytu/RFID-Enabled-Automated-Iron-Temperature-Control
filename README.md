@@ -37,8 +37,9 @@ The display was realized on the TFT LCD ST7735S using the user library “boocho
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f0798c2c-b4db-4ef2-8f07-f5ab6efee7ca">
 </p>
--Raspberry Pi Pico 
--RC522 RFID module
+
+- Raspberry Pi Pico
+- RC522 RFID module
 - RFID TAG MIFARE 13.56 MHz - sticker
 - 10A Glass Tube Fuse and Fuse Socket
 - MAX6675 converter chip - SPI temperature sensor
