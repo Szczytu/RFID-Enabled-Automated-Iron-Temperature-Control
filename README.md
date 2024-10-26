@@ -64,3 +64,34 @@ The design is based on the use of phase-delay control, which allows precise adju
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d454ec80-646d-402d-bd42-c17971e1c51a">
 </p>
+
+# Library guide
+
+- The display was realized on the TFT LCD ST7735S using the user library “boochow” https://github.com/boochow/MicroPython-ST7735/blob/master/ST7735.py.
+- Temperature reading was realized with the RC522 RFID module based on the user library “kevinmcaleer” https://github.com/kevinmcaleer/pico-rfid/blob/main/mfrc522.py.
+- The conversion of the thermoelectric signal from the thermocouple to a digital temperature value was based on the
+“BetaRavener” user library and the max6675 chip https://github.com/BetaRavener/micropython-hw-lib/blob/master/MAX6675/max6675.py.
+
+### Listing of a program fragment including implementation of libraries, constants and variables
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8d394e15-2927-41f8-8645-64bd6f782bf2">
+</p>
+
+- Ki is responsible for the immediate response 
+- Kd is for predicting future error and stabilization
+- Ki is for eliminating the long-term error
+
+> [!IMPORTANT]
+> Start with ki, if the system responds quickly enough, go to setting the kd coefficient and then ki
+> Find in the main.py file the dictionary uid_to_setpoint = {} and add the UID of your TAG and the temperature it should represent.
+
+> [!WARNING]
+> If you add operations to your code that require more processing time by the Raspberry Pi, pay attention to the Maximum Faring Delay. Exceeding this limit may cause desynchronization with the sinusoidal signal, which will affect the stability and accuracy of the system..
+
+
+
+
+
+
+
