@@ -35,8 +35,22 @@ The display was realized on the TFT LCD ST7735S using the user library “boocho
 
 # List of elements needed to build the project
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d454ec80-646d-402d-bd42-c17971e1c51a">
+  <img src="https://github.com/user-attachments/assets/f0798c2c-b4db-4ef2-8f07-f5ab6efee7ca">
 </p>
+- Raspberry Pi Pico 
+- RC522 RFID module
+- RFID TAG MIFARE 13.56 MHz - sticker
+- 10A Glass Tube Fuse and Fuse Socket
+- MAX6675 converter chip - SPI temperature sensor
+- Thermocouple type K - KPS-TP300
+- TFT LCD 128x160 SPI ST7735S display
+- Triac BTA16-600BQ + thermal pad and heat sink (for TO220 case)
+- MOC3020-LIT triac driver
+- EL817C optocoupler
+- Bridge rectifier MP1010G-DC
+- MR010NAL ferrite material
+- AC/DC converter
+
 # An example of using automated iron in IoT
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d454ec80-646d-402d-bd42-c17971e1c51a">
