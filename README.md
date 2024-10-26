@@ -74,7 +74,7 @@ The design is based on the use of phase-delay control, which allows precise adju
 
 ### Listing of a program fragment including implementation of libraries, constants and variables
 
-Go to the main.py file and find such items in the program as PID configuration, maximum_faring_delay, and uid_to_setpoint
+Go to the main.py file and find such items in the program as PID configuration, maximum_faring_delay, and uid_to_setpoint.
 Add your tags and the temperature values ​​they represent. If the system is not working configure Kp, Kd, ​​Ki and maximum_firing_deley.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8d394e15-2927-41f8-8645-64bd6f782bf2">
@@ -85,7 +85,9 @@ Add your tags and the temperature values ​​they represent. If the system is 
 - Ki is for eliminating the long-term error
 
 > [!IMPORTANT]
-> To adjust system start with Ki, if the system responds quickly enough, go to setting the Kd coefficient and then to Ki
+> To adjust system start with Kp, if the system responds quickly enough, go to setting the Kd coefficient and then to Ki
+
+> [!IMPORTANT]
 > The dictionary uid_to_setpoint = {} is for add the UID of your TAG and the temperature it should represent.
 
 > [!WARNING]
