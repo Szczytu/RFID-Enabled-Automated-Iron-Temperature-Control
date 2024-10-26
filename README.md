@@ -15,8 +15,8 @@ The design is based on the use of phase-delay control, which allows precise adju
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/850e76e5-5dcc-41f5-b324-bc423a77c18c">
-  <img src="https://github.com/user-attachments/assets/597de46d-10db-4cc7-b8df-10e4c418f0da">
   <img src="https://github.com/user-attachments/assets/71757215-ee91-4b2d-baca-23cf9f552a21">
+  <img src="https://github.com/user-attachments/assets/597de46d-10db-4cc7-b8df-10e4c418f0da">
 </p>
 
 The display was realized on the TFT LCD ST7735S using the user library “boochow” https://github.com/boochow/MicroPython-ST7735/blob/master/ST7735.py.  Temperature reading is realized with the RC522 RFID module based on the user library “kevinmcaleer” https://github.com/kevinmcaleer/pico-rfid/blob/main/mfrc522.py.
