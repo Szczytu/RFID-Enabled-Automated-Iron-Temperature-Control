@@ -7,6 +7,11 @@ The project presents the construction of a fully functional iron that automatica
   <img src="https://github.com/user-attachments/assets/8aab20bf-c929-4ce9-ae06-862c8b10b950">
 </p>
 
+## Simplified block diagram of the automated iron demonstration model
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ecc0c315-ce39-46e9-818b-9561bd2f1921">
+</p>
+
 # Schematic and project heating power control module
 The project schematic, sample 3D model and gerber file is in the folder "PCB Design Electronic Temperature Control System for Automated Iron"
 <p align="center">
@@ -28,4 +33,11 @@ The design is based on the use of phase-delay control, which allows precise adju
 
 The display was realized on the TFT LCD ST7735S using the user library “boochow” https://github.com/boochow/MicroPython-ST7735/blob/master/ST7735.py.  Temperature reading is realized with the RC522 RFID module based on the user library “kevinmcaleer” https://github.com/kevinmcaleer/pico-rfid/blob/main/mfrc522.py.
 
-
+# List of elements needed to build the project
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d454ec80-646d-402d-bd42-c17971e1c51a">
+</p>
+# An example of using automated iron in IoT
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d454ec80-646d-402d-bd42-c17971e1c51a">
+</p>
