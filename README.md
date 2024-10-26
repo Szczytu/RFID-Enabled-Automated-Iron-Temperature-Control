@@ -1,11 +1,9 @@
 # RFID-Enabled-Automated-Iron-Temperature-Control
 The project presents the construction of a fully functional iron that automatically sets the temperature by reading RFID identifiers placed in ironed clothes. The temperature control algorithm is based on PID control.
 
-![iron1](https://github.com/user-attachments/assets/79e101c2-f629-4b88-8f34-eb233383d9e4)
-![iron2](https://github.com/user-attachments/assets/5cecacea-fa2d-4b01-8d4b-c8369862421c)
-![iron3](https://github.com/user-attachments/assets/4684b818-3fec-4374-8c5c-989e10bbc63d)
-
-
+![iron1](https://github.com/user-attachments/assets/bc5ff706-d3e6-4ebd-bb0b-0ca4072b8503)
+![iron2](https://github.com/user-attachments/assets/97fe4aa4-29fc-4500-a4bf-56ea78fb968c)
+![iron3](https://github.com/user-attachments/assets/70e24a95-190a-4f5c-9a40-b78c7bedcd9a)
 
 # Power and PID control
 Power control guide by “Electronoobs”, which accurately describes zero crossing detection, triac control, and PID https://www.youtube.com/watch?v=P6mbBJDIvxI&ab_channel=Electronoobs 
